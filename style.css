@@ -1,0 +1,234 @@
+
+/* Zikebuz CV CSS*/
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* extract normalize*/
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.zik-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.zik-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.zik-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.zik-table,.zik-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.zik-table-all{border:1px solid #ccc}
+.zik-bordered tr,.zik-table-all tr{border-bottom:1px solid #ddd}.zik-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.zik-table-all tr:nth-child(odd){background-color:#fff}.zik-table-all tr:nth-child(even){background-color:#f1f1f1}
+.zik-hoverable tbody tr:hover,.zik-ul.zik-hoverable li:hover{background-color:#ccc}.zik-centered tr th,.zik-centered tr td{text-align:center}
+.zik-table td,.zik-table th,.zik-table-all td,.zik-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.zik-table th:first-child,.zik-table td:first-child,.zik-table-all th:first-child,.zik-table-all td:first-child{padding-left:16px}
+.zik-btn,.zik-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.zik-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.zik-btn,.zik-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.zik-disabled,.zik-btn:disabled,.zik-button:disabled{cursor:not-allowed;opacity:0.3}.zik-disabled *,:disabled *{pointer-events:none}
+.zik-btn.zik-disabled:hover,.zik-btn:disabled:hover{box-shadow:none}
+.zik-badge,.zik-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.zik-badge{border-radius:50%}
+.zik-ul{list-style-type:none;padding:0;margin:0}.zik-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.zik-ul li:last-child{border-bottom:none}
+.zik-tooltip,.zik-display-container{position:relative}.zik-tooltip .zik-text{display:none}.zik-tooltip:hover .zik-text{display:inline-block}
+.zik-ripple:active{opacity:0.5}.zik-ripple{transition:opacity 0s}
+.zik-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.zik-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.zik-dropdown-click,.zik-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.zik-dropdown-hover:hover .zik-dropdown-content{display:block}
+.zik-dropdown-hover:first-child,.zik-dropdown-click:hover{background-color:#ccc;color:#000}
+.zik-dropdown-hover:hover > .zik-button:first-child,.zik-dropdown-click:hover > .zik-button:first-child{background-color:#ccc;color:#000}
+.zik-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.zik-check,.zik-radio{width:24px;height:24px;position:relative;top:6px}
+.zik-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.zik-bar-block .zik-dropdown-hover,.zik-bar-block .zik-dropdown-click{width:100%}
+.zik-bar-block .zik-dropdown-hover .zik-dropdown-content,.zik-bar-block .zik-dropdown-click .zik-dropdown-content{min-width:100%}
+.zik-bar-block .zik-dropdown-hover .zik-button,.zik-bar-block .zik-dropdown-click .zik-button{width:100%;text-align:left;padding:8px 16px}
+.zik-main,#main{transition:margin-left .4s}
+.zik-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.zik-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.zik-bar{width:100%;overflow:hidden}.zik-center .zik-bar{display:inline-block;width:auto}
+.zik-bar .zik-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.zik-bar .zik-dropdown-hover,.zik-bar .zik-dropdown-click{position:static;float:left}
+.zik-bar .zik-button{white-space:normal}
+.zik-bar-block .zik-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.zik-bar-block.zik-center .zik-bar-item{text-align:center}.zik-block{display:block;width:100%}
+.zik-responsive{display:block;overflow-x:auto}
+.zik-container:after,.zik-container:before,.zik-panel:after,.zik-panel:before,.zik-row:after,.zik-row:before,.zik-row-padding:after,.zik-row-padding:before,
+.zik-cell-row:before,.zik-cell-row:after,.zik-clear:after,.zik-clear:before,.zik-bar:before,.zik-bar:after{content:"";display:table;clear:both}
+.zik-col,.zik-half,.zik-third,.zik-twothird,.zik-threequarter,.zik-quarter{float:left;width:100%}
+.zik-col.s1{width:8.33333%}.zik-col.s2{width:16.66666%}.zik-col.s3{width:24.99999%}.zik-col.s4{width:33.33333%}
+.zik-col.s5{width:41.66666%}.zik-col.s6{width:49.99999%}.zik-col.s7{width:58.33333%}.zik-col.s8{width:66.66666%}
+.zik-col.s9{width:74.99999%}.zik-col.s10{width:83.33333%}.zik-col.s11{width:91.66666%}.zik-col.s12{width:99.99999%}
+@media (min-width:601px){.zik-col.m1{width:8.33333%}.zik-col.m2{width:16.66666%}.zik-col.m3,.zik-quarter{width:24.99999%}.zik-col.m4,.zik-third{width:33.33333%}
+.zik-col.m5{width:41.66666%}.zik-col.m6,.zik-half{width:49.99999%}.zik-col.m7{width:58.33333%}.zik-col.m8,.zik-twothird{width:66.66666%}
+.zik-col.m9,.zik-threequarter{width:74.99999%}.zik-col.m10{width:83.33333%}.zik-col.m11{width:91.66666%}.zik-col.m12{width:99.99999%}}
+@media (min-width:993px){.zik-col.l1{width:8.33333%}.zik-col.l2{width:16.66666%}.zik-col.l3{width:24.99999%}.zik-col.l4{width:33.33333%}
+.zik-col.l5{width:41.66666%}.zik-col.l6{width:49.99999%}.zik-col.l7{width:58.33333%}.zik-col.l8{width:66.66666%}
+.zik-col.l9{width:74.99999%}.zik-col.l10{width:83.33333%}.zik-col.l11{width:91.66666%}.zik-col.l12{width:99.99999%}}
+.zik-rest{overflow:hidden}.zik-stretch{margin-left:-16px;margin-right:-16px}
+.zik-content,.zik-auto{margin-left:auto;margin-right:auto}.zik-content{max-width:980px}.zik-auto{max-width:1140px}
+.zik-cell-row{display:table;width:100%}.zik-cell{display:table-cell}
+.zik-cell-top{vertical-align:top}.zik-cell-middle{vertical-align:middle}.zik-cell-bottom{vertical-align:bottom}
+.zik-hide{display:none!important}.zik-show-block,.zik-show{display:block!important}.zik-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.zik-auto{max-width:95%}}
+@media (max-width:600px){.zik-modal-content{margin:0 10px;width:auto!important}.zik-modal{padding-top:30px}
+.zik-dropdown-hover.zik-mobile .zik-dropdown-content,.zik-dropdown-click.zik-mobile .zik-dropdown-content{position:relative}	
+.zik-hide-small{display:none!important}.zik-mobile{display:block;width:100%!important}.zik-bar-item.zik-mobile,.zik-dropdown-hover.zik-mobile,.zik-dropdown-click.zik-mobile{text-align:center}
+.zik-dropdown-hover.zik-mobile,.zik-dropdown-hover.zik-mobile .zik-btn,.zik-dropdown-hover.zik-mobile .zik-button,.zik-dropdown-click.zik-mobile,.zik-dropdown-click.zik-mobile .zik-btn,.zik-dropdown-click.zik-mobile .zik-button{width:100%}}
+@media (max-width:768px){.zik-modal-content{width:500px}.zik-modal{padding-top:50px}}
+@media (min-width:993px){.zik-modal-content{width:900px}.zik-hide-large{display:none!important}.zik-sidebar.zik-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.zik-hide-medium{display:none!important}}
+@media (max-width:992px){.zik-sidebar.zik-collapse{display:none}.zik-main{margin-left:0!important;margin-right:0!important}.zik-auto{max-width:100%}}
+.zik-top,.zik-bottom{position:fixed;width:100%;z-index:1}.zik-top{top:0}.zik-bottom{bottom:0}
+.zik-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.zik-display-topleft{position:absolute;left:0;top:0}.zik-display-topright{position:absolute;right:0;top:0}
+.zik-display-bottomleft{position:absolute;left:0;bottom:0}.zik-display-bottomright{position:absolute;right:0;bottom:0}
+.zik-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.zik-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.zik-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.zik-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.zik-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.zik-display-container:hover .zik-display-hover{display:block}.zik-display-container:hover span.zik-display-hover{display:inline-block}.zik-display-hover{display:none}
+.zik-display-position{position:absolute}
+.zik-circle{border-radius:50%}
+.zik-round-small{border-radius:2px}.zik-round,.zik-round-medium{border-radius:4px}.zik-round-large{border-radius:8px}.zik-round-xlarge{border-radius:16px}.zik-round-xxlarge{border-radius:32px}
+.zik-row-padding,.zik-row-padding>.zik-half,.zik-row-padding>.zik-third,.zik-row-padding>.zik-twothird,.zik-row-padding>.zik-threequarter,.zik-row-padding>.zik-quarter,.zik-row-padding>.zik-col{padding:0 8px}
+.zik-container,.zik-panel{padding:0.01em 16px}.zik-panel{margin-top:16px;margin-bottom:16px}
+#controlP{line-height:5px;margin-right:10px;}
+.zik-code,.zik-codespan{font-family:Consolas,"courier new";font-size:16px}
+.zik-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.zik-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.zik-card,.zik-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.zik-card-4,.zik-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.zik-spin{animation:zik-spin 2s infinite linear}@keyframes zik-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.zik-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.zik-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.zik-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.zik-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.zik-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.zik-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.zik-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.zik-animate-input{transition:width 0.4s ease-in-out}.zik-animate-input:focus{width:100%!important}
+.zik-opacity,.zik-hover-opacity:hover{opacity:0.60}.zik-opacity-off,.zik-hover-opacity-off:hover{opacity:1}
+.zik-opacity-max{opacity:0.25}.zik-opacity-min{opacity:0.75}
+.zik-greyscale-max,.zik-grayscale-max,.zik-hover-greyscale:hover,.zik-hover-grayscale:hover{filter:grayscale(100%)}
+.zik-greyscale,.zik-grayscale{filter:grayscale(75%)}.zik-greyscale-min,.zik-grayscale-min{filter:grayscale(50%)}
+.zik-sepia{filter:sepia(75%)}.zik-sepia-max,.zik-hover-sepia:hover{filter:sepia(100%)}.zik-sepia-min{filter:sepia(50%)}
+.zik-tiny{font-size:10px!important}.zik-small{font-size:12px!important}.zik-medium{font-size:15px!important}.zik-large{font-size:18px!important}
+.zik-xlarge{font-size:24px!important}.zik-xxlarge{font-size:36px!important}.zik-xxxlarge{font-size:48px!important}.zik-jumbo{font-size:64px!important}
+.zik-left-align{text-align:left!important}.zik-right-align{text-align:right!important}.zik-justify{text-align:justify!important}.zik-center{text-align:center!important}
+.zik-border-0{border:0!important}.zik-border{border:1px solid #ccc!important}
+.zik-border-top{border-top:1px solid #ccc!important}.zik-border-bottom{border-bottom:1px solid #ccc!important}
+.zik-border-left{border-left:1px solid #ccc!important}.zik-border-right{border-right:1px solid #ccc!important}
+.zik-topbar{border-top:6px solid #ccc!important}.zik-bottombar{border-bottom:6px solid #ccc!important}
+.zik-leftbar{border-left:6px solid #ccc!important}.zik-rightbar{border-right:6px solid #ccc!important}
+.zik-section,.zik-code{margin-top:16px!important;margin-bottom:16px!important}
+.zik-margin{margin:16px!important}.zik-margin-top{margin-top:16px!important}.zik-margin-bottom{margin-bottom:16px!important}
+.zik-margin-left{margin-left:16px!important}.zik-margin-right{margin-right:16px!important}
+.zik-padding-small{padding:4px 8px!important}.zik-padding{padding:8px 16px!important}.zik-padding-large{padding:12px 24px!important}
+.zik-padding-16{padding-top:16px!important;padding-bottom:16px!important}.zik-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.zik-padding-32{padding-top:32px!important;padding-bottom:32px!important}.zik-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.zik-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.zik-left{float:left!important}.zik-right{float:right!important}
+.zik-button:hover{color:#000!important;background-color:#ccc!important}
+.zik-transparent,.zik-hover-none:hover{background-color:transparent!important}
+.zik-hover-none:hover{box-shadow:none!important}
+/* Colors */
+.zik-amber,.zik-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.zik-aqua,.zik-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.zik-blue,.zik-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.zik-light-blue,.zik-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.zik-brown,.zik-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.zik-cyan,.zik-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.zik-blue-grey,.zik-hover-blue-grey:hover,.zik-blue-gray,.zik-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.zik-green,.zik-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.zik-light-green,.zik-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.zik-indigo,.zik-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.zik-khaki,.zik-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.zik-lime,.zik-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.zik-orange,.zik-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.zik-deep-orange,.zik-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.zik-pink,.zik-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.zik-purple,.zik-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.zik-deep-purple,.zik-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.zik-red,.zik-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.zik-sand,.zik-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.zik-teal,.zik-hover-teal:hover{color:#fff!important;background-color:#800000!important}
+.zik-yellow,.zik-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.zik-white,.zik-hover-white:hover{color:#000!important;background-color:#fff!important}
+.zik-black,.zik-hover-black:hover{color:#fff!important;background-color:#000!important}
+.zik-grey,.zik-hover-grey:hover,.zik-gray,.zik-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.zik-light-grey,.zik-hover-light-grey:hover,.zik-light-gray,.zik-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.zik-dark-grey,.zik-hover-dark-grey:hover,.zik-dark-gray,.zik-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.zik-pale-red,.zik-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.zik-pale-green,.zik-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.zik-pale-yellow,.zik-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.zik-pale-blue,.zik-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.zik-text-amber,.zik-hover-text-amber:hover{color:#ffc107!important}
+.zik-text-aqua,.zik-hover-text-aqua:hover{color:#00ffff!important}
+.zik-text-blue,.zik-hover-text-blue:hover{color:#2196F3!important}
+.zik-text-light-blue,.zik-hover-text-light-blue:hover{color:#87CEEB!important}
+.zik-text-brown,.zik-hover-text-brown:hover{color:#795548!important}
+.zik-text-cyan,.zik-hover-text-cyan:hover{color:#00bcd4!important}
+.zik-text-blue-grey,.zik-hover-text-blue-grey:hover,.zik-text-blue-gray,.zik-hover-text-blue-gray:hover{color:#607d8b!important}
+.zik-text-green,.zik-hover-text-green:hover{color:#4CAF50!important}
+.zik-text-light-green,.zik-hover-text-light-green:hover{color:#8bc34a!important}
+.zik-text-indigo,.zik-hover-text-indigo:hover{color:#3f51b5!important}
+.zik-text-khaki,.zik-hover-text-khaki:hover{color:#b4aa50!important}
+.zik-text-lime,.zik-hover-text-lime:hover{color:#cddc39!important}
+.zik-text-orange,.zik-hover-text-orange:hover{color:#ff9800!important}
+.zik-text-deep-orange,.zik-hover-text-deep-orange:hover{color:#ff5722!important}
+.zik-text-pink,.zik-hover-text-pink:hover{color:#e91e63!important}
+.zik-text-purple,.zik-hover-text-purple:hover{color:#9c27b0!important}
+.zik-text-deep-purple,.zik-hover-text-deep-purple:hover{color:#673ab7!important}
+.zik-text-red,.zik-hover-text-red:hover{color:#f44336!important}
+.zik-text-sand,.zik-hover-text-sand:hover{color:#fdf5e6!important}
+.zik-text-teal,.zik-hover-text-teal:hover{color:#800000!important}
+.zik-text-yellow,.zik-hover-text-yellow:hover{color:#d2be0e!important}
+.zik-text-white,.zik-hover-text-white:hover{color:#fff!important}
+.zik-text-black,.zik-hover-text-black:hover{color:#000!important}
+.zik-text-grey,.zik-hover-text-grey:hover,.zik-text-gray,.zik-hover-text-gray:hover{color:#757575!important}
+.zik-text-light-grey,.zik-hover-text-light-grey:hover,.zik-text-light-gray,.zik-hover-text-light-gray:hover{color:#f1f1f1!important}
+.zik-text-dark-grey,.zik-hover-text-dark-grey:hover,.zik-text-dark-gray,.zik-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.zik-border-amber,.zik-hover-border-amber:hover{border-color:#ffc107!important}
+.zik-border-aqua,.zik-hover-border-aqua:hover{border-color:#00ffff!important}
+.zik-border-blue,.zik-hover-border-blue:hover{border-color:#2196F3!important}
+.zik-border-light-blue,.zik-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.zik-border-brown,.zik-hover-border-brown:hover{border-color:#795548!important}
+.zik-border-cyan,.zik-hover-border-cyan:hover{border-color:#00bcd4!important}
+.zik-border-blue-grey,.zik-hover-border-blue-grey:hover,.zik-border-blue-gray,.zik-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.zik-border-green,.zik-hover-border-green:hover{border-color:#4CAF50!important}
+.zik-border-light-green,.zik-hover-border-light-green:hover{border-color:#8bc34a!important}
+.zik-border-indigo,.zik-hover-border-indigo:hover{border-color:#3f51b5!important}
+.zik-border-khaki,.zik-hover-border-khaki:hover{border-color:#f0e68c!important}
+.zik-border-lime,.zik-hover-border-lime:hover{border-color:#cddc39!important}
+.zik-border-orange,.zik-hover-border-orange:hover{border-color:#ff9800!important}
+.zik-border-deep-orange,.zik-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.zik-border-pink,.zik-hover-border-pink:hover{border-color:#e91e63!important}
+.zik-border-purple,.zik-hover-border-purple:hover{border-color:#9c27b0!important}
+.zik-border-deep-purple,.zik-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.zik-border-red,.zik-hover-border-red:hover{border-color:#f44336!important}
+.zik-border-sand,.zik-hover-border-sand:hover{border-color:#fdf5e6!important}
+.zik-border-teal,.zik-hover-border-teal:hover{border-color:#009688!important}
+.zik-border-yellow,.zik-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.zik-border-white,.zik-hover-border-white:hover{border-color:#fff!important}
+.zik-border-black,.zik-hover-border-black:hover{border-color:#000!important}
+.zik-border-grey,.zik-hover-border-grey:hover,.zik-border-gray,.zik-hover-border-gray:hover{border-color:#9e9e9e!important}
+.zik-border-light-grey,.zik-hover-border-light-grey:hover,.zik-border-light-gray,.zik-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.zik-border-dark-grey,.zik-hover-border-dark-grey:hover,.zik-border-dark-gray,.zik-hover-border-dark-gray:hover{border-color:#616161!important}
+.zik-border-pale-red,.zik-hover-border-pale-red:hover{border-color:#ffe7e7!important}.zik-border-pale-green,.zik-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.zik-border-pale-yellow,.zik-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.zik-border-pale-blue,.zik-hover-border-pale-blue:hover{border-color:#e7ffff!important}
